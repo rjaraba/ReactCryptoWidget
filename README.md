@@ -1,3 +1,5 @@
+Widget creado con React para la visualización online del cambio actual de las criptomonedas más populares.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
