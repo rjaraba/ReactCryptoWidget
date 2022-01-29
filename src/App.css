@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap");
+:root {
+  --dark: #1e2329;
+  --light: #fafafa;
+  --success: #03a66d;
+  --danger: #cf304a;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.name,
+.loading-text {
+  color: var(--light);
+  font-size: 16px;
+  font-weight: 600;
+}
+.fullname {
+  color: #b6b6b6;
+  font-size: 14px;
+  margin-top: 3px;
+  font-weight: 500;
+}
+.item {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+  border-bottom: 1px solid #949191;
+}
+.item:first-child {
+  padding-top: 0px;
+}
+.item:last-child {
+  padding-bottom: 0px;
+  border-bottom: 0px;
+}
+.container {
+  background-color: var(--dark);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 14px;
+}
+.price-container {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.price {
+  font-weight: 500;
+  color: var(--light);
+  font-size: 16px;
+}
+.price-change {
+  margin-top: 3px;
+}
+.price-change.danger {
+  color: var(--danger);
+}
+.price-change.success {
+  color: var(--success);
+}
